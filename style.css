@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(80deg, rgba(2,0,36,1) 0%, rgb(85, 85, 218) 35%, rgba(0,212,255,1) 100%);}
+
+.container-principal{
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-logos{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.logo{
+    position: absolute;
+    top: -50px;
+    left: -10px;
+}
+
+.cacto{
+    height: 90px;
+    margin-top: 420px;
+    position: absolute;
+    animation: cacto-animation 2.0s infinite linear;
+    bottom: 0px;
+}
+
+@keyframes cacto-animation {
+    from{
+        right: -300px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0;
+    }
+    40%{
+        bottom: 180px;
+    }
+    50%{
+        bottom: 180px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+
+.jump{
+    animation: jump 500ms ease-out;
+}
+
+.sonic{
+    position: absolute;
+    height: 100px;
+    margin-top: 420px;
+    left: 100px;
+    bottom: 0px;
+}
+
+.egg{
+  height: 400px;
+  margin-left: 750px;
+  margin-top: 100px;
+    
+}
+
+.academico1{
+    display: flex;
+    
+}
+
+.academico2{
+    display: flex;
+    
+}
+
+.ete{
+    width: 100px;
+    height: 100px;  
+}
+
+h1{
+    color: #ffd900;
+}
+
+p{
+    color: white;
+}
+
+.form1{
+    margin-top: 50px;
+}
+
+.form2{
+    margin-top: 50px;
+}
+
+.form3{
+    margin-top: 50px;
+}
+
+.form4{
+    margin-top: 50px;
+}
+
+.faculdade{
+    margin-left: 10px;
+}
+
+.faculdade>a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.exp{
+    display: flex;
+}
+
+.cargo>a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.cargo{
+    margin-left: 10px;
+}
+
+.links{
+    font-size: 20px;
+}
+
+.link4{
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 15px;
+    color: white;
+}
+
+.link1{
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 15px;
+    color: white;
+
+}
+
+.link2{
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 15px;
+    color: white;
+}
+
+.link3{
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 15px;
+    color: white;
+}
+
+.link4:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 4px;
+}
+
+.link1:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 4px;
+}
+
+.link2:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 4px;
+}
+
+.link3:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 4px;
+}
+
+.container-secoes{
+    margin-top: 200px;
+}
+
+/*projetos*/
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.header > img{
+    width: 300px;
+    height: 200px;
+}
+
+.container-projeto{
+   display: flex;
+   justify-content: space-between;
+}
+
+.projeto{
+    display: block;
+    padding-top: 1.5em;
+    border: solid 0.5px rgba(211,211,211,0.5);
+    width: 300px;
+    height: 380px;
+    margin-top: 70px;
+    background:linear-gradient(100deg, black,darkblue);
+    border-radius: 5%; 
+}
+
+.nome{
+    color: yellow;
+    margin-left: 10px;
+}
+
+.Descrição{
+    color: white;
+    margin-left: 10px;
+}
+
+.link5{
+    text-decoration: none;
+    color: purple;
+}
+
+
+.web{
+    color: yellow;
+}
+
+.base{
+display:flex;
+padding-left: 20px;
+justify-content: space-between;
+}
+
+.btn-img{
+    margin-right: 10px
+}
+
+.btn{
+    background-color:transparent;
+    margin-right: 10px;
+    border: none;
+}
+
+
+
+
